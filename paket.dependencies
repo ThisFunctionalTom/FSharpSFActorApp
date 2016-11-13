@@ -1,0 +1,7 @@
+source https://api.nuget.org/v3/index.json
+framework >= net452
+
+nuget Microsoft.ServiceFabric 5.3.301
+nuget Microsoft.ServiceFabric.Actors 2.3.301
+nuget Microsoft.ServiceFabric.Data 2.3.301
+nuget Microsoft.ServiceFabric.Services 2.3.301

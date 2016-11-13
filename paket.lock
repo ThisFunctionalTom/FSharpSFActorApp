@@ -1,0 +1,14 @@
+FRAMEWORK: >= NET452
+NUGET
+  remote: http://api.nuget.org/v3/index.json
+  specs:
+    Microsoft.ServiceFabric (5.3.301)
+    Microsoft.ServiceFabric.Actors (2.3.301)
+      Microsoft.ServiceFabric (5.3.301)
+      Microsoft.ServiceFabric.Data (2.3.301)
+      Microsoft.ServiceFabric.Services (2.3.301)
+    Microsoft.ServiceFabric.Data (2.3.301)
+      Microsoft.ServiceFabric (5.3.301)
+    Microsoft.ServiceFabric.Services (2.3.301)
+      Microsoft.ServiceFabric (5.3.301)
+      Microsoft.ServiceFabric.Data (2.3.301)
